@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "A5A5C42C-4CCA-4CA2-85EF-3F8E29AB51C2"
+		"uuidString": "5D18DF35-62C2-45D6-84F7-03A72E9ED575"
 		}
 	],
 "creatorBuild": "28905",
@@ -51,15 +51,15 @@
 		"uL": 1
 		},
 	"/scss/banner.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/banner.css",
-		"oF": 3,
+		"oAP": "/scss/banner.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		}
@@ -69,10 +69,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 572432830.75891805,
-	"displayValue": "Ashoka-Exercise",
+	"creationDate": 572522171.53124905,
+	"displayValue": "sonal",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-lotr",
+	"iconImageName": "meme-gavin",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
