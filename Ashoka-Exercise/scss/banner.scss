@@ -1,0 +1,106 @@
+@import 'variable';
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: black;
+  font-size: 14px;
+  color: $text-color;
+}
+
+section {
+  max-width: 768px;
+  margin: 5% auto;
+  background: white;
+  @media screen and (max-width: $tab-breakpoint) {
+    max-width: 580px;
+  }
+  @media screen and (max-width: $mobile-breakpoint) {
+    max-width: 100%;
+  }
+}
+
+.banner-wrapper {
+  background-image: url(../images/background-img.jpg);
+  clip-path: polygon(-254% 16%, 100% 100%, 100% -8%);
+  height: 650px;
+  @media screen and (max-width: $tab-breakpoint) {
+    clip-path: polygon(-550% 13%, 100% 100%, 100% -8%);
+    height: 850px;
+  }
+  @media screen and (max-width: $mobile-breakpoint) {
+    height: auto;
+    clip-path: none;
+    background-image: none;
+    background: $bg-color;
+  }
+}
+
+.banner-content {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.banner-heading-wrapper {
+  display: inline-block;
+  width: 48%;
+  text-align: right;
+  vertical-align: top;
+  margin: 0 1% 0 0;
+  background: $bg-yellow-color;
+  padding: 40px 0;
+  @media screen and (max-width: $mobile-breakpoint) {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+  }
+
+  h2 {
+    padding: 0 10px 0 0;
+    font-size: 1.7em;
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+
+  .summary {
+    padding: 0 10px;
+  }
+}
+
+.banner-description {
+  display: inline-block;
+  width: 50%;
+  padding: 45px 0;
+  font-size: 0.9em;
+  @media screen and (max-width: $mobile-breakpoint) {
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+  }
+}
+
+.bottom-border {
+  border-bottom: 6px solid $bg-yellow-color;
+  transform: rotate(11.3deg);
+  margin: -71px -7px 0;
+  @media screen and (max-width: $tab-breakpoint) {
+    margin: -50px -6px 0;
+  }
+  @media screen and (max-width: $mobile-breakpoint) {
+    margin: 5px 0 0;
+    transform: none;
+  }
+}
+
+.content-details-wrapper {
+  background: white;
+  color: black;
+  width: 75%;
+  margin: 70px auto 0;
+  padding: 0 0 20px;
+  @media screen and (max-width: $mobile-breakpoint) {
+    margin: 30px auto 0;
+  }
+}
